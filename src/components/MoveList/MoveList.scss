@@ -1,0 +1,49 @@
+.move-list {
+  position: absolute;
+  left: 70px;
+  border: 8px ridge white;
+  height: 400px;
+  width: 360px;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  border-radius: 8px;
+  .top-title {
+    display: flex;
+    justify-content: space-between;
+    h1 {
+      margin: 0;
+      color: #f6cbcb;
+      font-size: 24px;
+    }
+    button {
+      color: #695757;
+      font-weight: bold;
+      background: #f6cbcb;
+      padding: 10px;
+      border-radius: 5px;
+      width: 60px;
+      transition: 0.3s;
+      cursor: pointer;
+      &:hover {
+        background: #e6a2a2;
+      }
+    }
+  }
+  .move {
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 5px;
+    &:hover {
+      background: white;
+      color: #f6cbcb;
+    }
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+

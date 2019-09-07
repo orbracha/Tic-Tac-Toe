@@ -1,0 +1,16 @@
+.square {
+  cursor: pointer;
+  height: 140px;
+  width: 140px;
+  border: 5px solid white;
+  border-radius: 5px;
+  position: relative;
+  &.win {
+    background-color: wheat;
+  }
+  .square-name {
+    position: absolute;
+    left: 5px;
+    color: #ffffff7a;
+  }
+}
